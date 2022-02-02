@@ -222,7 +222,6 @@ export default {
     ...mapState(["selectedLanguage"]),
   },
   created() {
-      console.log(this.$store.state.selectedLanguage)
   },
   methods: {
   },

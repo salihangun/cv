@@ -1,21 +1,28 @@
 <template>
-  <language-button />
+  <div class="container resume-container px-3 px-lg-5" style="min-height: 16px">
+    <div class="float-end">
+      <download-pdf-button />
+      <language-button />
+    </div>
+  </div>
   <cv />
 </template>
 
 <script>
 import cv from "./views/cv.vue";
 import languageButton from "./components/languageButton.vue";
+import downloadPdfButton from "./components/downloadPdfButton.vue";
 export default {
   name: "App",
   components: {
     cv,
-    languageButton
+    languageButton,
+    downloadPdfButton,
   },
   data() {
-    return {
-    };
+    return {};
   },
+  methods: {},
 };
 </script>
 
