@@ -4,6 +4,7 @@
       <article
         class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg"
       >
+        {{ selectedLanguage }}
         <user :data="cv.user" />
         <hr />
         <div class="resume-body">
@@ -31,6 +32,7 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 import user from "./../components/user.vue";
 import workExperiences from "./../components/workExperiences.vue";
 import projects from "./../components/projects.vue";
@@ -216,6 +218,13 @@ export default {
         ],
       },
     };
+  },
+  computed: {
+    ...mapState(["selectedLanguage"]),
+  },
+  created() {
+  },
+  methods: {
   },
 };
 </script>
