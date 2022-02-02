@@ -4,7 +4,6 @@
       <article
         class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg"
       >
-        {{ selectedLanguage }}
         <user :data="cv.user" />
         <hr />
         <div class="resume-body">
@@ -223,8 +222,14 @@ export default {
     ...mapState(["selectedLanguage"]),
   },
   created() {
+      console.log(this.$store.state.selectedLanguage)
   },
   methods: {
+  },
+   watch: {
+    selectedLanguage: function () {
+      this.$i18n.locale = this.selectedLanguage
+    }
   },
 };
 </script>

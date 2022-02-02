@@ -1,6 +1,6 @@
 <template>
   <section class="project-section py-3">
-    <h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
+    <h3 class="text-uppercase resume-section-heading mb-4">{{ $t('PROJECTS')}}</h3>
     <div class="item mb-3" v-for="item in data" :key="item">
       <div class="item-heading row align-items-center mb-2">
         <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
