@@ -204,17 +204,16 @@ export default {
           { language: "German ", level: "A2" },
         ],
         interests: ["Climbing", "Snowboarding", "Photography", "Travelling"],
-        socialNetworks: [
-          { socialNetwork: "github", url: "https://github.com/salihangun" },
-          {
-            socialNetwork: "linkedin ",
+        socialNetworks: {
+          github:{username:'salihangun', url: "https://github.com/salihangun" },
+          linkedin:{username:'salihangun',
             url: "https://www.linkedin.com/in/salih-a-526087b2/",
           },
-          {
-            socialNetwork: "xing ",
+          xing:{
+            username:'salihangun',
             url: "https://www.xing.com/profile/Salih_Anguen/cv",
           },
-        ],
+        },
       },
     };
   },

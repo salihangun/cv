@@ -10,8 +10,8 @@
         text-muted
       "
     >
-      <li class="list-inline-item mb-lg-0 me-3">
-        <a class="resume-link" href="#"
+      <li class="list-inline-item mb-lg-0 me-3" v-if="data.github">
+        <a class="resume-link" :href="data.github.url"
           ><svg
             class="svg-inline--fa fa-github-square fa-w-14 fa-2x me-2"
             data-fa-transform="down-4"
@@ -34,14 +34,15 @@
                 ></path>
               </g>
             </g></svg
-          ><!-- <i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i> Font Awesome fontawesome.com --><span
+          >
+          <!-- <i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i> Font Awesome fontawesome.com --><span
             class="d-none d-lg-inline-block text-muted"
-            >github.com/username</span
+            >github.com/{{data.github.username}}</span
           ></a
         >
       </li>
-      <li class="list-inline-item mb-lg-0 me-3">
-        <a class="resume-link" href="#"
+      <li class="list-inline-item mb-lg-0 me-3" v-if="data.linkedin">
+        <a class="resume-link" :href="data.linkedin.url"
           ><svg
             class="svg-inline--fa fa-linkedin fa-w-14 fa-2x me-2"
             data-fa-transform="down-4"
@@ -66,37 +67,26 @@
             </g></svg
           ><!-- <i class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i> Font Awesome fontawesome.com --><span
             class="d-none d-lg-inline-block text-muted"
-            >linkedin.com/in/username</span
+            >linkedin.com/{{data.linkedin.username}}</span
           ></a
         >
       </li>
-      <li class="list-inline-item mb-lg-0 me-lg-3">
-        <a class="resume-link" href="#"
-          ><svg
-            class="svg-inline--fa fa-twitter-square fa-w-14 fa-2x me-2"
-            data-fa-transform="down-4"
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fab"
-            data-icon="twitter-square"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-            data-fa-i2svg=""
-            style="transform-origin: 0.4375em 0.75em; vertical-align: bottom"
+      <li class="list-inline-item mb-lg-0 me-lg-3" v-if="data.xing">
+        <a class="resume-link" :href="data.xing.url"
           >
-            <g transform="translate(224 256)">
-              <g transform="translate(0, 128)  scale(1, 1)  rotate(0 0 0)">
-                <path
-                  fill="currentColor"
-                  d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"
-                  transform="translate(-224 -256)"
-                ></path>
+          <svg  class="svg-inline--fa fa-twitter-square fa-w-14 fa-2x me-2" 
+          style="transform-origin: 0.4375em 0.75em; vertical-align: bottom" 
+          aria-hidden="true" focusable="false" data-prefix="fab"
+           data-icon="xing-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+             <g transform="translate(14 16)">
+              <g transform="translate(0, 105)  scale(1, 1)  rotate(0 0 0)">
+           <path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM140.4 320.2H93.8c-5.5 0-8.7-5.3-6-10.3l49.3-86.7c.1 0 .1-.1 0-.2l-31.4-54c-3-5.6.2-10.1 6-10.1h46.6c5.2 0 9.5 2.9 12.9 8.7l31.9 55.3c-1.3 2.3-18 31.7-50.1 88.2-3.5 6.2-7.7 9.1-12.6 9.1zm219.7-214.1L257.3 286.8v.2l65.5 119c2.8 5.1.1 10.1-6 10.1h-46.6c-5.5 0-9.7-2.9-12.9-8.7l-66-120.3c2.3-4.1 36.8-64.9 103.4-182.3 3.3-5.8 7.4-8.7 12.5-8.7h46.9c5.7-.1 8.8 4.7 6 10z"></path>
               </g>
-            </g></svg
-          ><!-- <i class="fab fa-twitter-square fa-2x me-2" data-fa-transform="down-4"></i> Font Awesome fontawesome.com --><span
+             </g>
+           </svg> 
+  <span
             class="d-none d-lg-inline-block text-muted"
-            >@twittername</span
+            >xing.com/{{data.xing.username}}</span
           ></a
         >
       </li>
