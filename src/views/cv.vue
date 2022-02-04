@@ -56,44 +56,36 @@ export default {
   },
   data() {
     return {
-      cv: {
+      cv_en: {
         user: {
           title: "Senior Frontend Developer",
           name: "Salih Angün",
           tel: "+90 553 533 2209",
           email: "salihangun@gmail.com",
           website: "salihangun.com",
-          location: "Ankara / Türkiye",
+          location: "Ankara / Turkey",
           imagePath:
             "https://avatars.githubusercontent.com/u/9803257?s=400&u=36b207d442972a72914fe3d915fa30dd6f405e0a&v=4",
           description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "I am a Senior Frontend Developer who developed the most featured security tools of Comodo Cyber Security. I always follow the best practices. I believe that proactivity and being ahead of time is the key to success.",
         },
         workExperiences: [
           {
-            companyName: "Comodo",
+            companyName: "Comodo Cyber Security",
             title: "Senior Frontend Developer",
-            startDate: "15/02/2021",
+            startDate: "26/11/2018",
             endDate: "Present",
             description:
-              "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+              "<b>Technologies:</b> VueJS, AngularJs, Vuetify, HTML, CSS3, LESS, SASS, Git, jQuery, AWS",
             skills: [
-              "Lorem ipsum dolor sit amet, consectetuer.",
-              "Aenean commodo ligula eget dolor.",
-              "Etiam ultricies nisi vel augue.",
-            ],
-          },
-          {
-            companyName: "Comodo",
-            title: "Frontend Developer",
-            startDate: "26/11/2018",
-            endDate: "15/02/2021",
-            description:
-              "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
-            skills: [
-              "Lorem ipsum dolor sit amet, consectetuer.",
-              "Aenean commodo ligula eget dolor.",
-              "Etiam ultricies nisi vel augue.",
+              "I developed the UI of the Dragon Enterprise project, which allows five different Comodo projects to be gathered on a single platform.",
+              "Developed MDR tools to detect anomalies on the customer's network and respond to them immediately.",
+              "Built a SOC (security operation center) portal UI.",
+              "Built a SIEM portal (security information and event management) UI.",
+              "Developed a customer portal UI which utilizes data from SOC and SIEM portals and presents it with analytics, graphics and reporting features.",
+              "Built Comodo SOCaaP UI, which is a web project providing all-in-one platform solutions from endpoint protection, incident and response management to network security monitoring, IDS and vulnerability scanners for customers.",
+              "Developed Comodo MarketPlace UI, which is a web-based platform where external and internal products are sold.",
+              "Developed NuInsight project UI, which is a web interface for NuMSP users for managing the hardware and software components of their customers.",
             ],
           },
           {
@@ -102,11 +94,11 @@ export default {
             startDate: "01/02/2016",
             endDate: "24/11/2018",
             description:
-              "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+              "<b>Technologies:</b> AngularJs, jQuery, Android Studio, HTML, CSS3, LESS, SASS, Git",
             skills: [
-              "Lorem ipsum dolor sit amet, consectetuer.",
-              "Aenean commodo ligula eget dolor.",
-              "Etiam ultricies nisi vel augue.",
+              "Built a SmartMessage Marketing Platform that allows customers to send various forms of notification like email, push notification, sms to their own customers.",
+              "Built Android mobile application UI of Şekerbank which is a significant bank instution in Turkey.",
+              "Built a yatsan.com.tr project UI",
             ],
           },
           {
@@ -115,11 +107,11 @@ export default {
             startDate: "01/11/2014",
             endDate: "01/02/2016",
             description:
-              "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+              "<b>Technologies:</b> jQuery, HTML, CSS3, LESS, Git, Selenium",
             skills: [
-              "Lorem ipsum dolor sit amet, consectetuer.",
-              "Aenean commodo ligula eget dolor.",
-              "Etiam ultricies nisi vel augue.",
+              "Built a Customer Relation Management as a service UI which enables clients to utilize the CRM services provided by this project.",
+              "Developed the Emission Measurement Program Ui, in which emission, noise and vibration measurements of authorized laboratories of the Turkish Ministry of Environment are recorded and shown.",
+              "Mobiltel B2B software used by Türk Telekom dealers to place orders",
             ],
           },
           {
@@ -128,82 +120,60 @@ export default {
             startDate: "01/12/2012",
             endDate: "01/11/2014",
             description:
-              "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+              "<b>Technologies:</b> jQuery, HTML, CSS3, Asp.net, Mssql",
             skills: [
-              "Lorem ipsum dolor sit amet, consectetuer.",
-              "Aenean commodo ligula eget dolor.",
-              "Etiam ultricies nisi vel augue.",
+              "Designed and built tailored web services and UIs according to special needs of customers functioning in different industries as a Full Stack Engineer.",
             ],
           },
         ],
         projects: [
           {
-            projectName: "Project Lorem Ipsum",
+            projectName: "Enerjisa",
             description:
-              "You can use this section for your side projects. You can provide a project link here as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            projectType: "Open Source",
+              "Built the UI of Turkey's National Electricity Supply and Distribution Instution(Enerjisa) which includes the several components of main web site and customer portal where users can manage their bills and tickets."+
+              "<br><a href='http://ayedas.com.tr' target='_blank' style='margin-right: 15px;'>ayedas.com.tr</a><a href='http://baskentedas.com.tr' target='_blank' style='margin-right: 15px;'>baskentedas.com.tr</a><a href='https://toroslaredas.com.tr' target='_blank'>toroslaredas.com.tr</a><br><b class='mt-2 d-block'>Technologies:</b> jQuery, HTML, CSS3",
+            projectType: "Freelance",
           },
           {
-            projectName: "Project Lorem Ipsum",
+            projectName: "Securitas",
             description:
-              "You can use this section for your side projects. You can provide a project link here as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            projectType: "Open Source",
-          },
-          {
-            projectName: "Project Lorem Ipsum",
-            description:
-              "You can use this section for your side projects. You can provide a project link here as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            projectType: "Open Source",
-          },
+              "Securitas developed a survey module inside the security company's process management portal"+
+              "<br><b>Technologies:</b> React",
+            projectType: "Freelance",
+          }
         ],
         skills: {
           technical: [
-            "JavaScript/Vue",
-            "Angular/React/Vue",
-            "Less/Sass/React/Vue",
-            "JavaScript/React/Vue",
-            "JavaScript/Angular/React",
-            "Html/Html5/Css/Css3",
-            "Html/Html5/Css/Css3",
+            "Vue/AngularJs",
+            "JavaScript/Jquery",
+            "TypeScript/ECMAScript",
+            "Vuetify/Bootstrap",
+            "Html5/Css3/BEM",
+            "Less/Sass",
+            "Vite/pnpm/npm",
+            "Git/Jira/Confluence",
+            "SCRUM/Agile" 
           ],
           professional: [
-            "Effective communication",
             "Team player",
-            "Strong problem solver",
             "Good time management",
           ],
         },
         education: [
           {
-            department: "MSc in Computer Science",
-            schoolName: "University College London",
-            startDate: "2020",
-            endDate: "2022",
-          },
-          {
-            department: "BSc Maths and Physics",
-            schoolName: "Imperial College London",
-            startDate: "2007",
-            endDate: "2010",
-          },
+            department: "Web Design and Coding",
+            schoolName: "Anadolu University",
+            startDate: "2016",
+            endDate: "Present",
+          }
         ],
         awards: [
-          {
-            name: "Award Lorem Ipsum",
-            organisation: "Microsoft lorem ipsum",
-            year: "2019",
-          },
-          {
-            name: "Award Donec Sodales",
-            organisation: "Oracle Aenean",
-            year: "2017",
-          },
         ],
         languages: [
-          { language: "English", level: "A2" },
-          { language: "German ", level: "A2" },
+          { language: "English", level: "Intermediate" },
+          { language: "German ", level: "Intermediate" },
         ],
-        interests: ["Climbing", "Snowboarding", "Photography", "Travelling"],
+        interests: ["Paragliding", "Travelling", "RC Car"],
         socialNetworks: {
           github:{username:'salihangun', url: "https://github.com/salihangun" },
           linkedin:{username:'salihangun',
@@ -215,18 +185,286 @@ export default {
           },
         },
       },
+      cv_de: {
+        user: {
+          title: "Senior Frontend Entwickler",
+          name: "Salih Angün",
+          tel: "+90 553 533 2209",
+          email: "salihangun@gmail.com",
+          website: "salihangun.com",
+          location: "Ankara / Türkei",
+          imagePath:
+            "https://avatars.githubusercontent.com/u/9803257?s=400&u=36b207d442972a72914fe3d915fa30dd6f405e0a&v=4",
+          description:
+            "Ich bin ein Senior Frontend Developer, der die am besten ausgestatteten Sicherheitstools von Comodo Cyber Security entwickelt hat. Ich folge immer den besten Praktiken. Ich glaube, dass Proaktivität und der Zeit voraus zu sein der Schlüssel zum Erfolg ist.",
+        },
+        workExperiences: [
+          {
+            companyName: "Comodo Cyber Security",
+            title: "Senior Frontend Entwickler",
+            startDate: "26/11/2018",
+            endDate: "Bis heute",
+            description:
+              "<b>Technologien:</b> VueJS, AngularJs, Vuetify, HTML, CSS3, LESS, SASS, Git, jQuery, AWS",
+            skills: [
+              "Ich habe die Benutzeroberfläche des Dragon Enterprise-Projekts entwickelt, die es ermöglicht, fünf verschiedene Comodo-Projekte auf einer einzigen Plattform zu sammeln.",
+              "MDR-Tools entwickelt, um Anomalien im Netzwerk des Kunden zu erkennen und sofort darauf zu reagieren.",
+              "Eine SOC (Security Operation Center)-Portal-Benutzeroberfläche erstellt.",
+              "Eine Benutzeroberfläche für das SIEM-Portal (Sicherheitsinformations- und Ereignisverwaltung) erstellt.",
+              "Entwicklung einer Kundenportal-Benutzeroberfläche, die Daten aus SOC- und SIEM-Portalen nutzt und sie mit Analyse-, Grafik- und Berichtsfunktionen präsentiert.",
+              "Erstellte Comodo SOCaaP UI, ein Webprojekt, das All-in-one-Plattformlösungen von Endgeräteschutz, Incident- und Response-Management bis hin zu Netzwerksicherheitsüberwachung, IDS und Schwachstellen-Scannern für Kunden bietet.",
+              "Entwickelte Comodo MarketPlace UI, eine webbasierte Plattform, auf der externe und interne Produkte verkauft werden.",
+              "Entwicklung der Benutzeroberfläche des NuInsight-Projekts, einer Webschnittstelle für NuMSP-Benutzer zur Verwaltung der Hardware- und Softwarekomponenten ihrer Kunden.",
+            ],
+          },
+          {
+            companyName: "Odc Business Solutions",
+            title: "Frontend Entwickler",
+            startDate: "01/02/2016",
+            endDate: "24/11/2018",
+            description:
+              "<b>Technologien:</b> AngularJs, jQuery, Android Studio, HTML, CSS3, LESS, SASS, Git",
+            skills: [
+              "Baute eine SmartMessage-Marketingplattform auf, die es Kunden ermöglicht, verschiedene Arten von Benachrichtigungen wie E-Mail, Push-Benachrichtigungen und SMS an ihre eigenen Kunden zu senden.",
+              "Erstellte Benutzeroberfläche für mobile Android-Anwendungen der Şekerbank, einer bedeutenden Bankinstitution in der Türkei.",
+              "Eine Benutzeroberfläche für das Projekt yatsan.com.tr erstellt",
+            ],
+          },
+          {
+            companyName: "Argeset Yazılım",
+            title: "Frontend Entwickler",
+            startDate: "01/11/2014",
+            endDate: "01/02/2016",
+            description:
+              "<b>Technologien:</b> jQuery, HTML, CSS3, LESS, Git, Selenium",
+            skills: [
+              "Eine Customer-Relation-Management-as-a-Service-Benutzeroberfläche erstellt, die es Kunden ermöglicht, die von diesem Projekt bereitgestellten CRM-Services zu nutzen.",
+              "Entwicklung des Emissionsmessprogramms Ui, in dem Emissions-, Lärm- und Vibrationsmessungen autorisierter Labore des türkischen Umweltministeriums aufgezeichnet und dargestellt werden.",
+              "Mobiltel B2B-Software, die von Türk Telekom-Händlern zum Aufgeben von Bestellungen verwendet wird",
+            ],
+          },
+          {
+            companyName: "Bosphorus Media",
+            title: "Frontend Entwickler",
+            startDate: "01/12/2012",
+            endDate: "01/11/2014",
+            description:
+              "<b>Technologien:</b> jQuery, HTML, CSS3, Asp.net, Mssql",
+            skills: [
+              "Designte und baute maßgeschneiderte Webservices und UIs gemäß den speziellen Bedürfnissen von Kunden, die in verschiedenen Branchen als Full Stack Engineer tätig sind.",
+            ],
+          },
+        ],
+        projects: [
+          {
+            projectName: "Enerjisa",
+            description:
+              "Erstellte die Benutzeroberfläche der nationalen Elektrizitätsversorgungs- und -verteilungsinstitution (Enerjisa) der Türkei, die die verschiedenen Komponenten der Hauptwebsite und des Kundenportals umfasst, wo Benutzer ihre Rechnungen und Tickets verwalten können."+
+              "<br><a href='http://ayedas.com.tr' target='_blank' style='margin-right: 15px;'>ayedas.com.tr</a><a href='http://baskentedas.com.tr' target='_blank' style='margin-right: 15px;'>baskentedas.com.tr</a><a href='https://toroslaredas.com.tr' target='_blank'>toroslaredas.com.tr</a><br><b class='mt-2 d-block'>Technologies:</b> jQuery, HTML, CSS3",
+            projectType: "Freiberuflich",
+          },
+          {
+            projectName: "Securitas",
+            description:
+              "Securitas hat ein Umfragemodul im Prozessmanagementportal des Sicherheitsunternehmens entwickelt"+
+              "<br><b>Technologien:</b> React",
+            projectType: "Freiberuflich",
+          }
+        ],
+        skills: {
+          technical: [
+            "Vue/AngularJs",
+            "JavaScript/Jquery",
+            "TypeScript/ECMAScript",
+            "Vuetify/Bootstrap",
+            "Html5/Css3/BEM",
+            "Less/Sass",
+            "Vite/pnpm/npm",
+            "Git/Jira/Confluence",
+            "SCRUM/Agile" 
+          ],
+          professional: [
+            "Teamspieler",
+            "Gutes Zeitmanagement",
+          ],
+        },
+        education: [
+          {
+            department: "Webdesign und Programmierung",
+            schoolName: "Anadolu University",
+            startDate: "2016",
+            endDate: "Bis heute",
+          }
+        ],
+        awards: [
+        ],
+        languages: [
+          { language: "Englisch", level: "Mittelstufe" },
+          { language: "Deutsch ", level: "Mittelstufe" },
+        ],
+        interests: ["Gleitschirmfliegen", "Reisen", "RC-Car"],
+        socialNetworks: {
+          github:{username:'salihangun', url: "https://github.com/salihangun" },
+          linkedin:{username:'salihangun',
+            url: "https://www.linkedin.com/in/salih-a-526087b2/",
+          },
+          xing:{
+            username:'salihangun',
+            url: "https://www.xing.com/profile/Salih_Anguen/cv",
+          },
+        },
+      },
+      cv_tr: {
+        user: {
+          title: "Kıdemli Ön Uç Geliştiricisi",
+          name: "Salih Angün",
+          tel: "+90 553 533 2209",
+          email: "salihangun@gmail.com",
+          website: "salihangun.com",
+          location: "Ankara / Türkiye",
+          imagePath:
+            "https://avatars.githubusercontent.com/u/9803257?s=400&u=36b207d442972a72914fe3d915fa30dd6f405e0a&v=4",
+          description:
+            "Comodo Cyber Security'nin güvenlik araçlarını geliştiren Kıdemli Ön Uç Geliştiricisiyim. Her zaman en iyi uygulamaları takip ederim. Başarının anahtarının proaktiflik ve zamanın ötesinde olma olduğuna inanıyorum.",
+        },
+        workExperiences: [
+          {
+            companyName: "Comodo Cyber Security",
+            title: "Kıdemli Ön Uç Geliştiricisi",
+            startDate: "26/11/2018",
+            endDate: "Halen",
+            description:
+              "<b>Teknoloji:</b> VueJS, AngularJs, Vuetify, HTML, CSS3, LESS, SASS, Git, jQuery, AWS",
+            skills: ["Beş farklı Comodo projesinin tek bir platformda toplanmasını sağlayan Dragon Enterprise projesinin kullanıcı arayüzünü geliştirdim.",
+              "Müşterinin ağındaki anormallikleri tespit etmek ve bunlara anında yanıt vermek için MDR araçları geliştirildi.",
+              "Bir SOC (güvenlik operasyon merkezi) portalı kullanıcı arayüzü oluşturuldu.",
+              "Bir SIEM portalı (güvenlik bilgileri ve olay yönetimi) kullanıcı arayüzü oluşturdu.",
+              "SOC ve SIEM portallarından gelen verileri kullanan ve bunu analitik, grafik ve raporlama özellikleriyle sunan bir müşteri portalı kullanıcı arayüzü geliştirdi.",
+              "Müşteriler için uç nokta koruması, olay ve yanıt yönetiminden ağ güvenliği izleme, IDS ve güvenlik açığı tarayıcılarına kadar hepsi bir arada platform çözümleri sunan bir web projesi olan Comodo SOCaaP UI'yi oluşturdu.",
+              "Harici ve dahili ürünlerin satıldığı web tabanlı bir platform olan Comodo MarketPlace UI geliştirildi.",
+              "NuMSP kullanıcıları için müşterilerinin donanım ve yazılım bileşenlerini yönetmeleri için bir web arayüzü olan NuInsight proje kullanıcı arayüzü geliştirildi.",],
+          },
+          {
+            companyName: "Odc Business Solutions",
+            title: "Ön Uç Geliştiricisi",
+            startDate: "01/02/2016",
+            endDate: "24/11/2018",
+            description:
+              "<b>Teknoloji:</b> AngularJs, jQuery, Android Studio, HTML, CSS3, LESS, SASS, Git",
+            skills: [
+              "Müşterilerin e-posta, anında iletme bildirimi, sms gibi çeşitli bildirim biçimlerini kendi müşterilerine göndermelerine olanak tanıyan bir Akıllı Mesaj Pazarlama Platformu oluşturdu.",
+               "Türkiye'de önemli bir banka kuruluşu olan Şekerbank'ın Android mobil uygulama arayüzünü oluşturduk.",
+               "yatsan.com.tr projesi kullanıcı arayüzü oluşturuldu",
+            ],
+          },
+          {
+            companyName: "Argeset Yazılım",
+            title: "Ön Uç Geliştiricisi",
+            startDate: "01/11/2014",
+            endDate: "01/02/2016",
+            description:
+              "<b>Teknoloji:</b> jQuery, HTML, CSS3, LESS, Git, Selenium",
+            skills: [
+              "Müşterilerin bu proje tarafından sağlanan CRM hizmetlerinden yararlanmalarını sağlayan bir hizmet kullanıcı arayüzü olarak bir Müşteri İlişkileri Yönetimi oluşturdu.",
+              "Türkiye Çevre Bakanlığı yetkili laboratuvarlarının emisyon, gürültü ve titreşim ölçümlerinin kaydedildiği ve gösterildiği Emisyon Ölçüm Programı Ui'yi geliştirdi.",
+              "Türk Telekom bayilerinin sipariş vermek için kullandığı Mobiltel B2B yazılımı",
+            ],
+          },
+          {
+            companyName: "Bosphorus Media",
+            title: "Ön Uç Geliştiricisi",
+            startDate: "01/12/2012",
+            endDate: "01/11/2014",
+            description:
+              "<b>Teknoloji:</b> jQuery, HTML, CSS3, Asp.net, Mssql",
+            skills: [
+              "Full Stack Developer olarak farklı sektörlerde faaliyet gösteren müşterilerin özel ihtiyaçlarına göre özel web servisleri ve kullanıcı arayüzleri tasarladı ve oluşturdu.",
+            ],
+          },
+        ],
+        projects: [
+          {
+            projectName: "Enerjisa",
+            description:
+              "Kullanıcıların faturalarını ve biletlerini yönetebilecekleri ana web sitesi ve müşteri portalının çeşitli bileşenlerini içeren Türkiye Ulusal Elektrik Dağıtım ve Dağıtım Kurumu'nun (Enerjisa) UI'sini oluşturdu."+
+              "<br><a href='http://ayedas.com.tr' target='_blank' style='margin-right: 15px;'>ayedas.com.tr</a><a href='http://baskentedas.com.tr' target='_blank' style='margin-right: 15px;'>baskentedas.com.tr</a><a href='https://toroslaredas.com.tr' target='_blank'>toroslaredas.com.tr</a><br><b class='mt-2 d-block'>Technologies:</b> jQuery, HTML, CSS3",
+            projectType: "Freelance",
+          },
+          {
+            projectName: "Securitas",
+            description:
+              "Securitas, güvenlik şirketinin süreç yönetimi portalında anket modülü geliştirdi."+
+              "<br><b>Teknoloji:</b> React",
+            projectType: "Freelance",
+          }
+        ],
+        skills: {
+          technical: [
+            "Vue/AngularJs",
+            "JavaScript/Jquery",
+            "TypeScript/ECMAScript",
+            "Vuetify/Bootstrap",
+            "Html5/Css3/BEM",
+            "Less/Sass",
+            "Vite/pnpm/npm",
+            "Git/Jira/Confluence",
+            "SCRUM/Agile" 
+          ],
+          professional: [
+            "Takım oyuncusu",
+            "İyi zaman yönetimi",
+          ],
+        },
+        education: [
+          {
+            department: "Web Tasarım ve Kodlama",
+            schoolName: "Anadolu Üniversitesi",
+            startDate: "2016",
+            endDate: "Halen",
+          }
+        ],
+        awards: [
+        ],
+        languages: [
+          { language: "İngilizce", level: "Orta" },
+          { language: "Almanca ", level: "Orta" },
+        ],
+        interests: ["Yamaç Paraşütü", "Seyahat", "RC Araba"],
+        socialNetworks: {
+          github:{username:'salihangun', url: "https://github.com/salihangun" },
+          linkedin:{username:'salihangun',
+            url: "https://www.linkedin.com/in/salih-a-526087b2/",
+          },
+          xing:{
+            username:'salihangun',
+            url: "https://www.xing.com/profile/Salih_Anguen/cv",
+          },
+        },
+      },
+      cv: {
+
+      }
     };
   },
   computed: {
     ...mapState(["selectedLanguage"]),
   },
   created() {
+      this.cv = this.cv_en
   },
   methods: {
   },
    watch: {
     selectedLanguage: function () {
       this.$i18n.locale = this.selectedLanguage
+      if(this.selectedLanguage == 'en'){
+            this.cv = this.cv_en
+      }else if(this.selectedLanguage == 'de'){
+            this.cv = this.cv_de
+      }else{
+            this.cv = this.cv_tr
+      }
+    
     }
   },
 };
@@ -234,3 +472,4 @@ export default {
 
 <style scoped>
 </style>
++

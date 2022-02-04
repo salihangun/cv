@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="item-content">
-        <p>{{ item.description }}</p>
+        <p v-html="item.description"></p>
       </div>
     </div>
   </section>

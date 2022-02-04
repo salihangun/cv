@@ -11,17 +11,17 @@
           class="
             item-meta
             col-12 col-md-6 col-lg-6
-            text-muted text-start text-md-end
+            text-muted text-start text-md-end fw-bold
           "
         >
           {{ item.companyName }} | {{ item.startDate }} - {{ item.endDate }}
         </div>
       </div>
-      <div class="item-content">
-        <p>{{ item.description }}</p>
-        <ul class="resume-list">
+      <div class="item-content">        
+        <ul class="resume-list" style="    padding-left: 1rem;">
           <li v-for="skill in item.skills" :key="skill">{{ skill }}</li>
         </ul>
+        <p v-html="item.description"></p>
       </div>
     </div>
   </section>
